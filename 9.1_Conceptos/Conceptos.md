@@ -34,6 +34,7 @@ ALgunas subclases podrian ser: cortijo, piso, adosado.
 Ejercicio 4
 
 Piensa en la liga de baloncesto, ¿qué 5 clases se te ocurren para representar 5 elementos distintos que intervengan en la liga?
+
 Partido, Jugador, Equipo, Balon, Arbitro.
 
 
@@ -42,6 +43,7 @@ Ejercicio 5
 Haz una lista con los atributos que podría tener la clase caballo. A continuación haz una lista con los posibles métodos (acciones asociadas a los caballos).
 
 Algunos atributos: peso, altura, edad, nombre, raza.
+
 Algunos metodos: correr, acelerar, bufar, dormir.
 
 

@@ -3,7 +3,6 @@ Conceptos de POO
 Ejercicio 1
 
 ¿Cuáles serían los atributos de la clase PilotoDeFormula1? ¿Se te ocurren algunas instancias de esta clase?
-
 Algunos atributos podrian ser: nombre, apellido, edad, altura, peso, trofeos, equipo.
 Algunas estancias podrian ser: fernandoAlonso, hamilton, carlosSainz.
 

@@ -1,21 +1,25 @@
+
 public class dominoJuego{
     public static void main(String[] args){
 
-        FichaDomino f1 = new FichaDomino(6, 1);
-        FichaDomino f2 = new FichaDomino(0, 4);
-        FichaDomino f3 = new FichaDomino(3, 3);
-        FichaDomino f4 = new FichaDomino(0, 1);
+        FichaDomino[] fichas = new FichaDomino[8];
+
+        fichas[0] = new FichaDomino((int)(Math.random()*7), (int)(Math.random()*7));
         
-        System.out.println(f1);
-        System.out.println(f2);
-        System.out.println(f3);
-        System.out.println(f4);
 
-        System.out.println(f2.voltea());
-        System.out.println(f2.encaja(f4));
-        System.out.println(f1.encaja(f4));
-        System.out.println(f1.encaja(f3));
-        System.out.println(f1.encaja(f2));
+        for(int i = 0 ; i < fichas.length ; i++){
+            fichas[i] = new FichaDomino((int)(Math.random()*7), (int)(Math.random()*7));
+        }
 
+        for(int i = 1 ; i < fichas.length ; i++){
+            do{
+                fichas[i].setNumeroUno((int)(Math.random()*7));;
+            }while(!fichas[i-1].encajaFila(fichas[i]));
+        }
+
+        for(int i = 0 ; i < fichas.length ; i++){
+
+            System.out.print(fichas[i]+" ");
+        }
     }
 }

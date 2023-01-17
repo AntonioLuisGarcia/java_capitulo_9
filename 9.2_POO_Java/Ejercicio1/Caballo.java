@@ -52,6 +52,10 @@ class Caballo{
         System.out.println("Tocotoc tocotoc tocotoc");
     }
 
+    public void cabalga(int numeroKm){
+        System.out.println("Tocotoc tocotoc tocotoc durante " + numeroKm + " km");
+    }
+
     public void relincha(){
         System.out.println("Hiiiiiiieeeeee");
     }

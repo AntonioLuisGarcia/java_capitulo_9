@@ -8,5 +8,7 @@ public class pruebaCaballito{
 
         caballo1.relincha();
         caballo2.rumia();
+        caballo1.cabalga(8);
+        caballo1.cabalga();
     }
 }

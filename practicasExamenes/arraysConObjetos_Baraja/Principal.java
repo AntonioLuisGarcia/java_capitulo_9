@@ -9,7 +9,7 @@ public class Principal {
 		baraja.pasaUnaCartaDeAbajoHastaArriba();
 		baraja.pasaUnaCartaDeArribaHastaAbajo();
 		baraja.mezcla();
-//		baraja.ordena();
+		baraja.ordena();
 		
 		Poker poker = new Poker();
 		

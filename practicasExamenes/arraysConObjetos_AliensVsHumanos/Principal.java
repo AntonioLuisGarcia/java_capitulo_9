@@ -8,7 +8,6 @@ public class Principal {
 		
 		campo.mezclarHumanos();
 		campo.mezclarMalvados();
-
 		campo.comenzarBatalla();
 		
 		System.out.println("Malvado más duro: " + campo.getMalvadoMasDuro().toString());

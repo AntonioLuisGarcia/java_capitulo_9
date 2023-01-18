@@ -6,9 +6,7 @@ public class Malvado {
 	boolean vivo;
 	int contadorDisparos;
 	
-	/**
-	 * 
-	 */
+
 	public Malvado() {
 		super();
 	}

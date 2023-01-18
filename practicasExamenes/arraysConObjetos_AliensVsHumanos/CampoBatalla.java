@@ -9,10 +9,7 @@ public class CampoBatalla {
 	String nombre;
 	Humano humanos[] = new Humano[LONGITUD_ARRAYS];
 	Malvado malvados[] = new Malvado[LONGITUD_ARRAYS];
-	
-	/**
-	 * 
-	 */
+
 	public CampoBatalla() {
 		super();
 		

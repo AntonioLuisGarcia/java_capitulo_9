@@ -6,9 +6,7 @@ import java.util.Iterator;
 public class Baraja {
 	private Carta cartas[] = new Carta[52];
 
-	/**
-	 * 
-	 */
+
 	public Baraja() {
 		int j = 0;
 		// Incializo las cartas de la baraja

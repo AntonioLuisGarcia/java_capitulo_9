@@ -4,9 +4,8 @@ public class Carta {
 	private String palo;
 	private int valor;
 	private int id;
-	/**
-	 * 
-	 */
+
+	
 	public Carta() {
 		super();
 	}

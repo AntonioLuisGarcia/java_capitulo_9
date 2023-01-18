@@ -5,9 +5,8 @@ import java.util.Arrays;
 public class Poker {
 	private Jugador jugadores[] = new Jugador[5];
 
-	/**
-	 * 
-	 */
+
+	
 	public Poker() {
 		super();
 		for (int i = 0; i < jugadores.length; i++) {

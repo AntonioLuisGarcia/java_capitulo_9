@@ -6,10 +6,8 @@ public class Jugador {
 	
 	private String nombre = "";
 	private Carta mano[] = new Carta[5];
+
 	
-	/**
-	 * 
-	 */
 	public Jugador() {
 		super();
 	}

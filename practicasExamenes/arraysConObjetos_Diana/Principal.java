@@ -7,6 +7,7 @@ import tutorialJava.Utils;
 public class Principal {
 
 	public static void main(String[] args) {
+		
 		Jugador jugadores[] = new Jugador[4];
 		Tirada tiradas[] = new Tirada[62];
 		

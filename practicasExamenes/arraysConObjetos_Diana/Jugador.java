@@ -5,9 +5,7 @@ public class Jugador {
 	String nombre;
 	int puntuacion;
 	
-	/**
-	 * 
-	 */
+
 	public Jugador() {
 		super();
 	}

@@ -59,6 +59,5 @@ class File implements FileEntry{
 
         return texto;
     }
-
 }
 

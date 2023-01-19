@@ -5,9 +5,7 @@ public class Tirada {
 	int puntos;
 	int probabilidad;
 	
-	/**
-	 * 
-	 */
+
 	public Tirada() {
 		super();
 	}

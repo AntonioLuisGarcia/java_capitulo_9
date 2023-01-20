@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import Ejercicio4.Disco;
+
 public class coleccionDeDiscos {
     public static void main(String[] args) {
     // N determina el tamaño del array
@@ -56,7 +58,7 @@ public class coleccionDeDiscos {
 						break;
 						
 					case 2:
-					
+
 						System.out.println("\nNUEVO DISCO");
 						System.out.println("===========");
 						
